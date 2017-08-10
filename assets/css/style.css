@@ -1,0 +1,71 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+/* Escribe tu código acá debajo */
+*
+{
+	/*box-sizing: border-box;*/
+	font-family:sans-serif,"Raleway";
+	font-size: 18px;
+	color:black;
+}
+#box1
+{
+	background-size: cover;
+	background-position: top;
+	background: url("../img/uno.jpg");
+	border-bottom: 20px solid #F78E69;
+	padding: 0 0 450px;
+}
+.box2
+{
+	background-color: #ABE188;
+}
+.box4
+{
+    background-color: #ABE188;
+}
+.box5
+{
+    background: url(../img/tres.jpg);
+    background-size: cover;
+    background-position: top;
+    padding: 350px;
+    border-top: 20px solid #F78E69;
+}
+.description
+{
+	text-align: center;
+	padding: 70px 300px;	
+}
+.description div
+{
+	color: white;
+    background-color: #F78E69;
+    padding: 30px;
+    font-size: 1.5em;
+}
+.pandas
+{
+    color: white;
+    padding: 40px 200px 40px 200px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.pandas h1
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+footer
+{
+    background-color: #F78E69;
+    padding: 20px 30px;
+    color: white;
+    text-align: right;
+}
